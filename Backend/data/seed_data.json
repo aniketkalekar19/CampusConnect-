@@ -1,0 +1,461 @@
+{
+  "user": {
+    "id": "usr-aniket-1",
+    "studentId": "STU-2026-7829",
+    "name": "Aniket Sharma",
+    "email": "aniket.sharma@campus.edu",
+    "role": "Undergraduate Senior",
+    "college": "St. Xavier's Institute of Technology",
+    "department": "Computer Science & Engineering",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "bio": "CS Senior passionate about Full-stack development, modern UI/UX design systems, and campus hackathons. Lead organizer for GDSC Campus Chapter and amateur guitarist.",
+    "socials": {
+      "linkedin": "linkedin.com/in/aniket-sharma",
+      "github": "github.com/aniket-sharma",
+      "instagram": "@aniket_campus",
+      "twitter": "@aniket_dev"
+    }
+  },
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Campus Band Night: Battle of the Bands",
+      "category": "Music",
+      "categoryColor": "bg-rose-50 text-rose-700 border-rose-200",
+      "date": "Friday, Nov 15, 2026",
+      "time": "6:00 PM - 10:00 PM",
+      "rawDate": "2026-11-15",
+      "location": "Main Campus Amphitheater, Central Quad",
+      "locationType": "on-campus",
+      "price": 0,
+      "priceType": "Free",
+      "isPaid": false,
+      "capacity": 650,
+      "registeredCount": 480,
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+      "organizer": "Campus Music Society & Student Council",
+      "organizerId": "org-music-society",
+      "organizerAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "description": "Get ready for the most electrifying night of the semester! 8 shortlisted student bands will go head-to-head on the grand amphitheater stage with live rock, indie pop, jazz, and fusion performances. Guest celebrity judges, light shows, and campus food trucks will be on site all evening.",
+      "features": [
+        {
+          "icon": "Utensils",
+          "text": "12+ Food & Beverage Stalls"
+        },
+        {
+          "icon": "Users",
+          "text": "Open for All Students & Faculty"
+        },
+        {
+          "icon": "Award",
+          "text": "Audience Voting for Best Band"
+        },
+        {
+          "icon": "Sparkles",
+          "text": "Laser Light Show & After-Party DJ"
+        },
+        {
+          "icon": "ShieldCheck",
+          "text": "Campus Security & Medical Desk"
+        },
+        {
+          "icon": "Tag",
+          "text": "Free Glow Wristbands for Early Arrivals"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "6:00 PM",
+          "title": "Gates Open & Acoustic Warmups"
+        },
+        {
+          "time": "6:45 PM",
+          "title": "Round 1: Indie & Fusion Bands"
+        },
+        {
+          "time": "8:15 PM",
+          "title": "Intermission & Food Trucks"
+        },
+        {
+          "time": "8:45 PM",
+          "title": "Round 2: Rock & Electric Sets"
+        },
+        {
+          "time": "9:45 PM",
+          "title": "Awards Ceremony & DJ Set"
+        }
+      ]
+    },
+    {
+      "id": "evt-2",
+      "title": "UI/UX & Design Systems Masterclass",
+      "category": "Tech",
+      "categoryColor": "bg-indigo-50 text-indigo-700 border-indigo-200",
+      "date": "Monday, Nov 18, 2026",
+      "time": "10:00 AM - 2:00 PM",
+      "rawDate": "2026-11-18",
+      "location": "Design Lab 3B, New Engineering Block",
+      "locationType": "on-campus",
+      "price": 15,
+      "priceType": "Paid",
+      "isPaid": true,
+      "capacity": 80,
+      "registeredCount": 68,
+      "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1200&q=80",
+      "organizer": "Google Developer Student Club (GDSC)",
+      "organizerId": "STU-2026-7829",
+      "organizerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "description": "A hands-on, high-impact workshop breaking down modern design systems in Figma, tokens, component architecture, accessibility standards, and prototyping animations. Learn directly from senior product designers and build a reusable component library from scratch.",
+      "features": [
+        {
+          "icon": "Laptop",
+          "text": "Hands-on Figma Pro Workspace Included"
+        },
+        {
+          "icon": "Award",
+          "text": "Verified Certificate of Completion"
+        },
+        {
+          "icon": "Coffee",
+          "text": "Complimentary Coffee & Networking Lunch"
+        },
+        {
+          "icon": "Users",
+          "text": "1-on-1 Portfolio Reviews with Mentors"
+        },
+        {
+          "icon": "FileText",
+          "text": "Free UI Kit & Design Tokens Cheat Sheet"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "10:00 AM",
+          "title": "Modern UI Fundamentals & Design Tokens"
+        },
+        {
+          "time": "11:15 AM",
+          "title": "Figma Auto-layout & Component Variants"
+        },
+        {
+          "time": "12:30 PM",
+          "title": "Lunch Break & Peer Feedback"
+        },
+        {
+          "time": "1:15 PM",
+          "title": "Micro-interactions & Prototype Handoff"
+        }
+      ]
+    },
+    {
+      "id": "evt-3",
+      "title": "Inter-College Cricket Tournament Trials",
+      "category": "Sports",
+      "categoryColor": "bg-emerald-50 text-emerald-700 border-emerald-200",
+      "date": "Wednesday, Nov 20, 2026",
+      "time": "8:00 AM - 1:00 PM",
+      "rawDate": "2026-11-20",
+      "location": "University Sports Complex, Pitch 2",
+      "locationType": "on-campus",
+      "price": 0,
+      "priceType": "Free",
+      "isPaid": false,
+      "capacity": 120,
+      "registeredCount": 94,
+      "image": "https://images.unsplash.com/photo-1531415074868-036b107e775a?auto=format&fit=crop&w=1200&q=80",
+      "organizer": "Athletics & Physical Education Board",
+      "organizerId": "org-athletics-board",
+      "organizerAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "description": "Official selection trials for the Varsity Cricket Team for the upcoming State Inter-University Championship. Batting nets, bowling radar tracking, and fielding simulations will be monitored by certified state coaches.",
+      "features": [
+        {
+          "icon": "Zap",
+          "text": "Official Kit & Match Balls Provided"
+        },
+        {
+          "icon": "Users",
+          "text": "Open for All Enrolled Undergrads & Postgrads"
+        },
+        {
+          "icon": "Award",
+          "text": "Final 16 Players Receive Varsity Colors"
+        },
+        {
+          "icon": "ShieldCheck",
+          "text": "On-site Physiotherapist & Energy Drinks"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "8:00 AM",
+          "title": "Registration Verification & Warmups"
+        },
+        {
+          "time": "8:45 AM",
+          "title": "Fast & Spin Bowling Speed Assessment"
+        },
+        {
+          "time": "10:30 AM",
+          "title": "Net Batting & Strike Analysis"
+        },
+        {
+          "time": "12:00 PM",
+          "title": "Fielding Drills & Simulated Match Situations"
+        }
+      ]
+    },
+    {
+      "id": "evt-4",
+      "title": "AI & Web3 Student Founders Summit",
+      "category": "Seminar",
+      "categoryColor": "bg-purple-50 text-purple-700 border-purple-200",
+      "date": "Saturday, Nov 22, 2026",
+      "time": "2:00 PM - 6:30 PM",
+      "rawDate": "2026-11-22",
+      "location": "Auditorium Hall A, Management Block",
+      "locationType": "on-campus",
+      "price": 25,
+      "priceType": "Paid",
+      "isPaid": true,
+      "capacity": 250,
+      "registeredCount": 210,
+      "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80",
+      "organizer": "E-Cell & Campus Venture Fund",
+      "organizerId": "org-ecell-ventures",
+      "organizerAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "description": "Join venture capitalists, alumni founders, and researchers exploring real-world applications of autonomous AI agents, decentralized tech, and funding early-stage student startups. Features a live elevator pitch competition with $5,000 in equity-free grants.",
+      "features": [
+        {
+          "icon": "Award",
+          "text": "$5,000 Student Micro-Grant Pitch"
+        },
+        {
+          "icon": "Users",
+          "text": "Investor Speed-Networking Session"
+        },
+        {
+          "icon": "Coffee",
+          "text": "High-Tea & Founder Mixer"
+        },
+        {
+          "icon": "FileText",
+          "text": "Exclusive Term Sheet & Pitch Deck Templates"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "2:00 PM",
+          "title": "Keynote: Agentic Workflows in 2027"
+        },
+        {
+          "time": "3:15 PM",
+          "title": "Panel: Raising Pre-Seed from College Dorms"
+        },
+        {
+          "time": "4:30 PM",
+          "title": "Live Pitch Competition: Top 6 Teams"
+        },
+        {
+          "time": "5:45 PM",
+          "title": "Grant Winner Announcement & Mixer"
+        }
+      ]
+    },
+    {
+      "id": "evt-5",
+      "title": "HackTheCampus 2026: 24h Hackathon",
+      "category": "Tech",
+      "categoryColor": "bg-indigo-50 text-indigo-700 border-indigo-200",
+      "date": "Saturday, Nov 28, 2026",
+      "time": "9:00 AM - 9:00 AM Next Day",
+      "rawDate": "2026-11-28",
+      "location": "Tech Park Block 4, Innovation Arena",
+      "locationType": "on-campus",
+      "price": 0,
+      "priceType": "Free",
+      "isPaid": false,
+      "capacity": 300,
+      "registeredCount": 290,
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "organizer": "Association for Computing Machinery (ACM)",
+      "organizerId": "org-acm-chapter",
+      "organizerAvatar": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=200&q=80",
+      "description": "The flagship annual 24-hour hackathon bringing together coders, designers, and innovators to solve smart campus problems, sustainability challenges, and education accessibility. Over $10k in prizes, sponsor API tracks, and non-stop pizza.",
+      "features": [
+        {
+          "icon": "Laptop",
+          "text": "Gigabit Wi-Fi & Hardware Lab Access"
+        },
+        {
+          "icon": "Utensils",
+          "text": "4 Meals, Midnight Pizza & RedBull"
+        },
+        {
+          "icon": "Award",
+          "text": "$10,000 Cash Pool & Sponsor Swag"
+        },
+        {
+          "icon": "Sparkles",
+          "text": "Internship Fast-Tracks for Finalists"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "9:00 AM",
+          "title": "Check-in & Team Matching"
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Hacking Kickoff"
+        },
+        {
+          "time": "12:00 AM",
+          "title": "Midnight Mini-Game & Energy Boost"
+        },
+        {
+          "time": "9:00 AM",
+          "title": "Code Freeze & Project Demos"
+        }
+      ]
+    },
+    {
+      "id": "evt-6",
+      "title": "Cultural Fest: Neon DJ Night & Food Carnival",
+      "category": "Music",
+      "categoryColor": "bg-rose-50 text-rose-700 border-rose-200",
+      "date": "Wednesday, Dec 02, 2026",
+      "time": "7:00 PM - 11:30 PM",
+      "rawDate": "2026-12-02",
+      "location": "Open Grounds North, Festival Lawn",
+      "locationType": "on-campus",
+      "price": 10,
+      "priceType": "Paid",
+      "isPaid": true,
+      "capacity": 1200,
+      "registeredCount": 980,
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+      "organizer": "Campus Cultural Affairs Committee",
+      "organizerId": "org-cultural-committee",
+      "organizerAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+      "description": "Experience a sensory explosion of neon colors, electronic bass, dynamic laser choreography, and 20+ gourmet food stalls from local cult favorites. Dress in white or neon to glow under the mega UV arrays.",
+      "features": [
+        {
+          "icon": "Sparkles",
+          "text": "Neon Face Painting & Glow Accessories"
+        },
+        {
+          "icon": "Utensils",
+          "text": "Street Food, Mocktails & Desserts"
+        },
+        {
+          "icon": "Music",
+          "text": "Guest DJ Sunfire (EDM / Tropical)"
+        },
+        {
+          "icon": "Camera",
+          "text": "360-Degree Video Booths"
+        }
+      ],
+      "schedule": [
+        {
+          "time": "7:00 PM",
+          "title": "Carnival Gates & Food Village Opens"
+        },
+        {
+          "time": "8:00 PM",
+          "title": "Opening Student DJ Sets"
+        },
+        {
+          "time": "9:30 PM",
+          "title": "Headline Act: DJ Sunfire"
+        },
+        {
+          "time": "11:15 PM",
+          "title": "Confetti Drop & Wrap-up"
+        }
+      ]
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg-101",
+      "registrationId": "reg-101",
+      "ticketId": "TCK-CC-8941",
+      "eventId": "evt-2",
+      "userId": "STU-2026-7829",
+      "attendeeName": "Aniket Sharma",
+      "attendeeEmail": "aniket.sharma@campus.edu",
+      "studentId": "STU-2026-7829",
+      "department": "Computer Science & Engineering",
+      "ticketType": "Student Pass (VIP)",
+      "price": 15,
+      "seat": "Desk B-14",
+      "bookingDate": "Oct 24, 2026",
+      "status": "Confirmed"
+    },
+    {
+      "id": "reg-102",
+      "registrationId": "reg-102",
+      "ticketId": "TCK-CC-4209",
+      "eventId": "evt-1",
+      "userId": "STU-2026-7829",
+      "attendeeName": "Aniket Sharma",
+      "attendeeEmail": "aniket.sharma@campus.edu",
+      "studentId": "STU-2026-7829",
+      "department": "Computer Science & Engineering",
+      "ticketType": "General Admission",
+      "price": 0,
+      "seat": "Open Seating (Zone A)",
+      "bookingDate": "Oct 26, 2026",
+      "status": "Confirmed"
+    },
+    {
+      "id": "reg-103",
+      "registrationId": "reg-103",
+      "ticketId": "TCK-CC-5521",
+      "eventId": "evt-2",
+      "userId": "STU-2026-1142",
+      "attendeeName": "Priya Kapoor",
+      "attendeeEmail": "priya.k@campus.edu",
+      "studentId": "STU-2026-1142",
+      "department": "Information Technology",
+      "ticketType": "Student Pass (VIP)",
+      "price": 15,
+      "seat": "Desk B-15",
+      "bookingDate": "Oct 25, 2026",
+      "status": "Confirmed"
+    },
+    {
+      "id": "reg-104",
+      "registrationId": "reg-104",
+      "ticketId": "TCK-CC-7734",
+      "eventId": "evt-2",
+      "userId": "STU-2026-3398",
+      "attendeeName": "Rahul Verma",
+      "attendeeEmail": "rahul.v@campus.edu",
+      "studentId": "STU-2026-3398",
+      "department": "Design & Media Arts",
+      "ticketType": "General Admission",
+      "price": 15,
+      "seat": "Desk C-02",
+      "bookingDate": "Oct 26, 2026",
+      "status": "Confirmed"
+    },
+    {
+      "id": "reg-105",
+      "registrationId": "reg-105",
+      "ticketId": "TCK-CC-9912",
+      "eventId": "evt-2",
+      "userId": "STU-2026-5520",
+      "attendeeName": "Sneha Patel",
+      "attendeeEmail": "sneha.p@campus.edu",
+      "studentId": "STU-2026-5520",
+      "department": "Electrical Engineering",
+      "ticketType": "Student Pass (VIP)",
+      "price": 15,
+      "seat": "Desk B-16",
+      "bookingDate": "Oct 27, 2026",
+      "status": "Confirmed"
+    }
+  ]
+}

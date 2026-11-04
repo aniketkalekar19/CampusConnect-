@@ -1,0 +1,14 @@
+{
+  "name": "campusconnect-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CampusConnect - College Event Discovery & Management Platform with REST API",
+  "scripts": {
+    "dev": "npm --prefix Frontend run dev",
+    "dev:backend": "python Backend/app.py",
+    "build": "npm --prefix Frontend run build",
+    "lint": "npm --prefix Frontend run lint",
+    "start:backend": "python Backend/app.py"
+  }
+}
+
