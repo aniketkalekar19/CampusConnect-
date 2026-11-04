@@ -36,12 +36,18 @@ class SupabaseREST:
         data = None if body is None else json.dumps(body).encode("utf-8")
         headers = {
             "apikey": self.key,
-            "Authorization": f"Bearer {self.key}",
             "Accept": "application/json",
             "Content-Type": "application/json",
             "Accept-Profile": "public",
             "Content-Profile": "public",
         }
+        # New Supabase API keys (sb_publishable_ / sb_secret_) are opaque
+        # keys, not JWTs. PostgREST rejects them in Authorization: Bearer;
+        # the apikey header alone is sufficient for the gateway to authorize
+        # the request and provide its internal role JWT. Legacy anon and
+        # service_role keys are JWTs and still need the Authorization header.
+        if not self.key.startswith("sb_"):
+            headers["Authorization"] = f"Bearer {self.key}"
         if prefer:
             headers["Prefer"] = prefer
         req = Request(f"{self.base_url}/{path}{query}", data=data, headers=headers, method=method)

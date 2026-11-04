@@ -11,6 +11,10 @@ python app.py
 
 The API listens on `http://localhost:5000` by default. Set the `PORT` environment variable to change the port.
 
+## Deploy
+
+The repository includes a root `Procfile` for platforms that use Procfile-based Python deployments. Set the project root to the repository root, use `pip install -r Backend/requirements.txt` as the build command, and use the Procfile web command as the start command. Configure `SUPABASE_URL` and `SUPABASE_KEY` in the hosting provider's environment settings; the local `.env` file is not deployed. Use a current supported Python 3 release.
+
 ## Supabase database
 
 The backend uses the Supabase Data API when `SUPABASE_URL` and `SUPABASE_KEY` are configured. Copy `.env.example` to `.env`, then replace the key with the project's publishable key. `.env` is ignored by Git. Do not use a service-role or secret key here.
